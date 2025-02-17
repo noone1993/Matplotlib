@@ -6,5 +6,3 @@ tipsInfo=sns.load_dataset(name="tips",data_home="D:\SeabornData",cache=True)
 sns.scatterplot(data=tipsInfo,x="total_bill",y="tip",hue="size",size="size",sizes=(5, 100))
 #通过参数hue将分组依据设置为size，散点图中点的大小范围为5~100
 plt.show()
-
-www
