@@ -7,3 +7,4 @@ sns.scatterplot(data=tipsInfo,x="total_bill",y="tip",hue="size",size="size",size
 #通过参数hue将分组依据设置为size，散点图中点的大小范围为5~100
 plt.show()
 
+www
